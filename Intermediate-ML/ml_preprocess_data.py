@@ -169,7 +169,6 @@ def main():
     print("Numerical Columns:")
     print(numerical_columns)
 
-
     X_train_new = X_train.copy()
     X_test_new = X_test.copy()
     X_train_new, X_test_new = deal_with_missing_values(X_train_new, X_test_new, columns_with_missing, categorical_columns, numerical_columns, strategy="simple_imputing")
@@ -184,7 +183,7 @@ def main():
     #         X_train_new, X_test_new = deal_with_missing_values(X_train_new, X_test_new, strategy=strategy1)
     #         X_train_new, X_test_new = deal_with_categorical_variables(X_train_new, X_test_new, strategy=strategy2)
     #         print(f"MAE from the Approaches {strategy1} + {strategy2}")
-    #         print(score_model(X_train_new, X_test_new, y_train, y_test))
+    #         print(score_model(X_train_new, X_test_new, y_train, y_test, model="RandomForestRegressor", n_estimators=100, random_state=0))
     
 if __name__ == "__main__":
     main()
