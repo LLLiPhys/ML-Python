@@ -1,4 +1,4 @@
-Machine Learning with Python, which contains code tutorials (from Kaggle) and case studies (home-made).
+Machine Learning with Python, which contains:
 
 - Number of Hotel Clicks (Home Made): Build ML models to predict the number of clicks of a hotel
 
