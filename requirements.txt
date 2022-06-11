@@ -1,0 +1,6 @@
+Python-3.6.13
+Numpy-1.19.5
+Pandas-1.1.5
+Sklearn-0.24.2
+Scipy-1.5.4
+Matplotlib-3.3.4
